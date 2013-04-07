@@ -1,0 +1,35 @@
+{
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Auto Semi-Colon",
+		"BracketHighlighter",
+		"DetectSyntax",
+		"EasyMotion",
+		"Emmet",
+		"ERB Insert and Toggle Commands",
+		"FileDiffs",
+		"Git",
+		"GitGutter",
+		"Gitignore",
+		"INI",
+		"Insert Nums",
+		"MarkAndMove",
+		"Origami",
+		"Package Control",
+		"PlainTasks",
+		"Quick File Creator",
+		"RecenterTopBottom",
+		"RevertFontSize",
+		"RSpec",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"Theme - Soda"
+	],
+	"repository_channels":
+	[
+		"https://sublime.wbond.net/repositories.json"
+	]
+}

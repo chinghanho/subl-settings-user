@@ -1,0 +1,11 @@
+// Frustratingly, the Sublime Text editor doesn’t set up a build system
+// for JavaScript the way it does for Ruby and some other languages.
+// Fortunately, it’s an easy problem to fix. Assuming your JS interpreter
+// is Node.js, these are the steps to set it up...
+//
+// http://logicmason.com/2013/adding-a-js-build-system-to-sublime/
+{
+  "cmd": ["node", "$file", "$file_base_name"],
+  "working_dir": "${project_path:${folder}}",
+  "selector": "source.js"
+}

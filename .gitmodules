@@ -1,0 +1,6 @@
+[submodule "tomorrow-theme-ex"]
+	path = tomorrow-theme-ex
+	url = git@github.com:chinghanho/tomorrow-theme-ex.git
+[submodule "scroll-to-top-middle-bottom"]
+	path = scroll-to-top-middle-bottom
+	url = git@github.com:chinghanho/scroll-to-top-middle-bottom.git
