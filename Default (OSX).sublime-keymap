@@ -39,7 +39,7 @@
 
   // CodeIntel
   { "keys": ["alt+d"], "command": "goto_python_definition" },
-  { "keys": ["alt+c"], "command": "code_intel_auto_complete" },
+  { "keys": ["ctrl+shift+space"], "command": "code_intel_auto_complete" },
   { "keys": ["alt+shift+d"], "command": "back_to_python_definition"},
 
   // Go to left bracket
