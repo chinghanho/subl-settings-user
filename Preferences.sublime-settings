@@ -3,6 +3,7 @@
 	"caret_style": "smooth",
 	"color_scheme": "Packages/User/tomorrow-theme-ex/Tomorrow-Night-Bright.tmTheme",
 	"default_line_ending": "unix",
+	"drag_text": false,
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Monaco",
@@ -21,7 +22,6 @@
 	"revert_font_size": 14.0,
 	"rulers":
 	[
-		// 80
 	],
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
@@ -34,5 +34,5 @@
 	"use_simple_full_screen": true,
 	"wide_caret": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?，。；：「」、（）",
-	"word_wrap": false
+	"word_wrap": true
 }
