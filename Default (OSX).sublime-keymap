@@ -11,6 +11,11 @@
   // open current file in Finder
   { "keys": ["super+shift+o"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
 
+  // RubyTest
+  { "keys": ["super+k", "super+r"], "command": "run_single_ruby_test" }, // single test
+  { "keys": ["super+k", "super+t"], "command": "run_all_ruby_test" }, // test file
+  { "keys": ["super+k", "super+e"], "command": "run_last_ruby_test" }, // test file
+
   // move_by_paragraph
   {"keys": ["alt+["],          "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false}},
   {"keys": ["alt+]"],          "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true}},
