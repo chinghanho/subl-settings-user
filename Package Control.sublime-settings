@@ -22,10 +22,12 @@
 		"RecenterTopBottom",
 		"RevertFontSize",
 		"RSpec",
+		"RubyTest",
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeTODO",
 		"Theme - Soda"
 	],
 	"repository_channels":
