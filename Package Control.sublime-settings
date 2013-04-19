@@ -2,10 +2,14 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"ASCII Decorator",
 		"Auto Semi-Colon",
+		"Boron Color Scheme",
 		"BracketHighlighter",
+		"CoffeeScript",
 		"DetectSyntax",
 		"EasyMotion",
+		"eco",
 		"Emmet",
 		"ERB Insert and Toggle Commands",
 		"FileDiffs",
@@ -28,7 +32,8 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeTODO",
-		"Theme - Soda"
+		"Theme - Soda",
+		"Toggle words"
 	],
 	"repository_channels":
 	[
