@@ -10,6 +10,11 @@
   { "keys": ["ctrl+super+left"], "command": "move_tab", "args": {"mod": -1} },
   { "keys": ["ctrl+super+right"], "command": "move_tab", "args": {"mod": 1} },
 
+  // scroll-to-top-middle-bottom
+  { "keys": ["super+m", "super+t"], "command": "move_caret_top" },
+  { "keys": ["super+m", "super+m"], "command": "move_caret_middle"},
+  { "keys": ["super+m", "super+b"], "command": "move_caret_bottom"},
+
   // open current file in Finder
   { "keys": ["super+shift+o"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
 
