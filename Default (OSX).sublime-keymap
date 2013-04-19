@@ -7,6 +7,8 @@
   { "keys": ["ctrl+super+q"], "command": "side_bar_duplicate" },
   { "keys": ["f2"], "command": "side_bar_rename" },
   // { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
+  { "keys": ["ctrl+super+left"], "command": "move_tab", "args": {"mod": -1} },
+  { "keys": ["ctrl+super+right"], "command": "move_tab", "args": {"mod": 1} },
 
   // open current file in Finder
   { "keys": ["super+shift+o"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
