@@ -2,6 +2,9 @@
   // Conflict with SublimeCodeIntel's command `code_intel_auto_complete`
   { "keys": ["super+j"], "command": "join_lines" },
 
+  // Conflict with Ruby Test
+  { "keys": ["super+shift+t"], "command": "reopen_last_file" },
+
   { "keys": ["ctrl+shift+."], "command": "erb" },
   { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" },
   { "keys": ["ctrl+super+q"], "command": "side_bar_duplicate" },
@@ -20,7 +23,7 @@
 
   // RubyTest
   { "keys": ["super+k", "super+r"], "command": "run_single_ruby_test" }, // single test
-  { "keys": ["super+k", "super+t"], "command": "run_all_ruby_test" }, // test file
+  { "keys": ["super+k", "super+x"], "command": "run_all_ruby_test" }, // test file
   { "keys": ["super+k", "super+e"], "command": "run_last_ruby_test" }, // test file
 
   // move_by_paragraph
