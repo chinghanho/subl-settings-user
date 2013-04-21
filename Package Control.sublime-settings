@@ -28,12 +28,14 @@
 		"RSpec",
 		"RubyTest",
 		"SCSS",
+		"SearchInProject",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeTODO",
 		"Theme - Soda",
-		"Toggle words"
+		"Toggle words",
+		"VintageEx",
 		"VintageLines"
 	],
 	"repository_channels":

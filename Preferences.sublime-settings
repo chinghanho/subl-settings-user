@@ -10,10 +10,6 @@
 	"font_size": 14.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
 	"indent_guide_options":
 	[
 		"draw_active"
@@ -34,6 +30,6 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
 	"wide_caret": true,
-	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?，。；：「」、（）",
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?，。；：「」、（）！",
 	"word_wrap": false
 }
