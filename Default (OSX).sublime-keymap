@@ -12,6 +12,9 @@
   // { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
   { "keys": ["super+k", "super+t"], "command": "title_case" },
 
+  // Vintage Lines
+  {"keys": ["ctrl+t"], "command": "toggle_setting", "args": {"setting": "vintage_lines.force_mode"}},
+
   // move_tab.py
   { "keys": ["ctrl+super+left"], "command": "move_tab", "args": {"mod": -1} },
   { "keys": ["ctrl+super+right"], "command": "move_tab", "args": {"mod": 1} },
