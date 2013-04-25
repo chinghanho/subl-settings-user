@@ -7,6 +7,11 @@
   // { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
   { "keys": ["super+k", "super+t"], "command": "title_case" },
 
+  // Conflict with Rails File Switcher
+  { "keys": ["super+1"], "command": "select_by_index", "args": { "index": 0 } },
+  { "keys": ["super+2"], "command": "select_by_index", "args": { "index": 1 } },
+  { "keys": ["super+3"], "command": "select_by_index", "args": { "index": 2 } },
+
   // Conflict with SublimeCodeIntel's command `code_intel_auto_complete`
   { "keys": ["super+j"], "command": "join_lines" },
 
@@ -18,6 +23,11 @@
   {"keys": ["alt+j"], "command": "move", "args": {"by": "lines", "forward": true}},
   {"keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": false}},
   {"keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true}},
+
+  // Rails File Switcher
+  { "keys": ["alt+1"], "command": "open_related_rails_model" },
+  { "keys": ["alt+2"], "command": "open_related_rails_controller" },
+  { "keys": ["alt+3"], "command": "open_related_rails_view" },
 
   // Vintage Lines
   {"keys": ["ctrl+t"], "command": "toggle_setting", "args": {"setting": "vintage_lines.force_mode"}},
