@@ -12,6 +12,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
