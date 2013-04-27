@@ -28,6 +28,12 @@
       "rules": [
         {"file_name": ".*\\.(irbrc|pryrc).*$"}
       ]
+    },
+    {
+      "name": "Python",
+      "rules": [
+        {"file_name": ".*\\.(pythonrc).*$"}
+      ]
     }
 	]
 }
