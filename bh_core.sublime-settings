@@ -16,8 +16,8 @@
       "default": {
           "icon": "dot",
           "color": "entity.name.class",
-          "color": "brackethighlighter.default",
-          "style": "underline"
+          // "color": "brackethighlighter.default",
+          "style": "outline"
       },
 
       // This particular style is used to highlight
