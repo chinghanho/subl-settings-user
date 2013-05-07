@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"ApplySyntax",
 		"ASCII Decorator",
 		"Auto Semi-Colon",
 		"Boron Color Scheme",
@@ -9,11 +10,11 @@
 		"CoffeeScript",
 		"CTags",
 		"DashDoc",
-		"DetectSyntax",
 		"EasyMotion",
 		"eco",
 		"Emmet",
 		"ERB Insert and Toggle Commands",
+		"ERB Snippets",
 		"FileDiffs",
 		"Git",
 		"GitGutter",
