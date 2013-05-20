@@ -25,6 +25,12 @@
   // Conflict with Ruby Test
   { "keys": ["super+shift+t"], "command": "reopen_last_file" },
 
+  // Redefine Origami keymap
+  { "keys": ["super+k", "super+k"], "command": "travel_to_pane", "args": {"direction": "up"} },
+  { "keys": ["super+k", "super+l"], "command": "travel_to_pane", "args": {"direction": "right"} },
+  { "keys": ["super+k", "super+j"], "command": "travel_to_pane", "args": {"direction": "down"} },
+  { "keys": ["super+k", "super+h"], "command": "travel_to_pane", "args": {"direction": "left"} },
+
   // Vim-like move motion
   {"keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false}},
   {"keys": ["alt+j"], "command": "move", "args": {"by": "lines", "forward": true}},
