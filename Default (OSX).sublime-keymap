@@ -31,6 +31,10 @@
   { "keys": ["super+k", "super+j"], "command": "travel_to_pane", "args": {"direction": "down"} },
   { "keys": ["super+k", "super+h"], "command": "travel_to_pane", "args": {"direction": "left"} },
 
+  // Modified Tab Navigation
+  {"keys": ["ctrl+tab"], "command": "next_view_in_pane"},
+  {"keys": ["ctrl+shift+tab"], "command": "prev_view_in_pane" },
+
   // Vim-like move motion
   {"keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false}},
   {"keys": ["alt+j"], "command": "move", "args": {"by": "lines", "forward": true}},
