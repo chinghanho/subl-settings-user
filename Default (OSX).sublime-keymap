@@ -15,6 +15,10 @@
   { "keys": ["super+2"], "command": "select_by_index", "args": { "index": 1 } },
   { "keys": ["super+3"], "command": "select_by_index", "args": { "index": 2 } },
 
+  // Conflict with "Add new line before"...
+  { "keys": ["super+shift+enter"], "command": "run_macro_file", "args": {"file": "Packages/Default/Add Line Before.sublime-macro"} },
+  { "keys": ["super+k", "super+z"], "command": "max_pane" },
+
   // Conflict with SublimeCodeIntel's command `code_intel_auto_complete`
   { "keys": ["super+j"], "command": "join_lines" },
 
