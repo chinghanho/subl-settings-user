@@ -36,11 +36,16 @@
 		"SearchInProject",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
+		"SublimeJEDI",
 		"SublimeLinter",
 		"SublimeTODO",
 		"Syntax Highlighting for Sass",
 		"Theme - Soda",
 		"Toggle words"
+	],
+	"repositories":
+	[
+		"https://sublime.wbond.net/testing/packages.json"
 	],
 	"repository_channels":
 	[
