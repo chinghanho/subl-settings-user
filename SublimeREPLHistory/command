@@ -1,0 +1,36 @@
+-require "psych"
+-parsed_yaml = Psych.load("date   : 2001-01-23")
+-puts parsed_yaml
+-parsed_yaml.class
+-c
+-clear
+-hash = { "name": "Ching-Han Ho" }
+-hash = { "name" => "Ching-Han Ho" }
+-hash.to_json
+-hash.class
+-require "json"
+-hash.class
+-hash.to_json
+-exit
+-YAML::ENGILE.yamler
+-require "yaml"
+-YAML::ENGILE.yamler
+-YAML::ENGINE.yamler
+-exit
+-require "psych"
+-Psych.load_file("text.yml")
+-Psych.load_file("test.yml")
+-.pwd
+-exit
+-RUBY_VERSION
+-.which rvm
+-.which ruby
+-.pwd
+-.cd /Users/whocareu2008/Code/Sandbox/ruby-yaml
+-.pwd
+-require "psych"
+-Psych.load_file("test.yml")
+-a = Psych.load_file("test.yml")
+-a
+-a.class
+-exit
